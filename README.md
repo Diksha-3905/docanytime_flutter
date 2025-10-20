@@ -1,8 +1,6 @@
 DocAnytime – Flutter Telehealth App
 
 
-"C:\Users\waghd\Pictures\Screenshots\Screenshot 2025-10-20 225640.png"
-
 A clean, professional Flutter app for connecting patients with doctors. Users can log in, browse doctors, view details, and book appointments. Designed with a modern UI and easy-to-understand code, perfect for demos, learning, or portfolio.
 
 Features
