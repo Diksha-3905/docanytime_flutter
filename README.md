@@ -4,7 +4,7 @@ DocAnytime – Flutter Telehealth App
 ![Login Screen](assets/login.png)
 
 ### Home Screen
-![Home Screen](assets/home.png)
+![Home Screen](assets/Home.png)
 
 ### Doctor Listing Screen
 ![Doctor Listing Screen](assets/doctor_listing.png)
