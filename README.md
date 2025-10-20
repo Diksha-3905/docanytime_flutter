@@ -7,10 +7,10 @@ DocAnytime – Flutter Telehealth App
 ![Home Screen](assets/Home.png)
 
 ### Doctor Listing Screen
-![Doctor Listing Screen](assets/doctor_listing.png)
+![Doctor Listing Screen](assets/doctorlisting.png)
 
 ### Doctor Details Screen
-![Doctor Details Screen](assets/doctor_details.png)
+![Doctor Details Screen](assets/doctordetails.png)
 
 A clean, professional Flutter app for connecting patients with doctors. Users can log in, browse doctors, view details, and book appointments. Designed with a modern UI and easy-to-understand code, perfect for demos, learning, or portfolio.
 
