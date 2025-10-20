@@ -1,51 +1,102 @@
-# docanytime_flutter
-<<<<<<< HEAD
+DocAnytime – Flutter Telehealth App
 
-A new Flutter project.
 
-## Getting Started
+"C:\Users\waghd\Pictures\Screenshots\Screenshot 2025-10-20 225640.png"
 
-This project is a starting point for a Flutter application.
+A clean, professional Flutter app for connecting patients with doctors. Users can log in, browse doctors, view details, and book appointments. Designed with a modern UI and easy-to-understand code, perfect for demos, learning, or portfolio.
 
-A few resources to get you started if this is your first Flutter project:
+Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Login Screen – Secure and simple login interface.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# DocAnytime 🩺
+Home Screen – Dashboard with doctor categories and search.
 
-## Overview
-DocAnytime is a Flutter-based telehealth app connecting patients with doctors for virtual consultations, appointments, and report analysis.
+Doctor Listing Screen – Browse doctors by specialty.
 
-## Objectives
-- Simplify doctor-patient communication.
-- Enable virtual appointments and report sharing.
-- Provide secure and user-friendly healthcare access.
+Doctor Details Screen – View doctor info and book appointments.
 
-## Target Users
-- Patients
-- Doctors
+Navigation – Smooth navigation between screens.
 
-## Key Features
-- Authentication
-- Doctor Listing
-- Appointment Booking
-- Report Upload
-- Profile Management
+Light, Professional UI – Minimal yet realistic design (DocAnytime theme).
 
-## Navigation Flow
-Login → Home → Doctor List → Doctor Details → Book Appointment → Profile/Reports
+Commented Code & Clean Structure – Easy to understand and extend.
 
-## Tech Stack
-- Flutter (Dart)
-- Firebase (for authentication & storage)
+Screenshots
+Login Screen
 
-## How to Run
-```bash
+Home Screen
+
+Doctor Listing Screen
+
+Doctor Details Screen
+
+Replace path/to/... with your screenshot file paths.
+
+Folder Structure
+docanytime_flutter/
+├── lib/
+│   ├── main.dart
+│   ├── screens/
+│   │   ├── login_screen.dart
+│   │   ├── home_screen.dart
+│   │   ├── doctor_listing_screen.dart
+│   │   └── doctor_details_screen.dart
+│   ├── widgets/
+│   │   └── custom_widgets.dart
+│   └── models/
+│       └── doctor_model.dart
+├── pubspec.yaml
+└── README.md
+
+Getting Started
+Prerequisites
+
+Flutter SDK (Install Flutter
+)
+
+Android Studio or VS Code with Flutter extension
+
+Run the App
+# Clone the repository
+git clone https://github.com/<your-username>/docanytime_flutter.git
+cd docanytime_flutter
+
+# Install dependencies
 flutter pub get
+
+# Run the app
 flutter run
->>>>>>> 7667c1832a82720c0ba451e2c2a26ab38a969ee7
+
+Future Improvements
+
+Authentication with Firebase
+
+Real backend integration for doctor data and appointment booking
+
+Push notifications for appointment reminders
+
+Filter doctors by ratings, availability, and specialization
+
+GitHub Commit Steps
+# Initialize Git (if not done)
+git init
+
+# Add files
+git add .
+
+# Commit changes
+git commit -m "Initial commit – DocAnytime Flutter app"
+
+# Add GitHub remote
+git remote add origin https://github.com/<your-username>/docanytime_flutter.git
+
+# Pull remote changes if any
+git pull origin main --rebase
+
+# Push to GitHub
+git push origin main
+
+License
+
+This project is licensed under the MIT License – see the LICENSE
+ file for details.
